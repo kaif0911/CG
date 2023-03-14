@@ -3,8 +3,8 @@
 #include<graphics.h>
 void main()
 {
-Int gd=DETECT,gm,left=100,top=100,right=100,bottom=100,
- x=300,y=150,radius=50;
+int gd=DETECT,gm,left=100,top=100,right=100,bottom=100,
+x=300,y=150,radius=50;
 initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
 rectangle(120,150,230,200);
 circle(x,y,radius);
